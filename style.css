@@ -1,0 +1,109 @@
+html{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;   
+  }
+  
+  *, *:before, *:after{
+      -webkit-box-sizing: inherit;
+      -moz-box-sizing: inherit;
+      box-sizing: inherit;
+  }
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color:#099186;
+    font-family:'roboto' ,sans-serif, serif;
+}
+
+.clearfix:after, .clearfix:before{
+  
+    content: '';
+    display: table;
+}
+
+.clearfix:after{
+    clear: both;
+}
+.wrapper{
+    width:600px;
+    margin:100px  auto 0;
+    border-radius:4px;
+    padding: 38px 70px 180px;
+    background-color: #fff;
+    box-shadow: 0 5px 8px 1px rgba(0,0,0,.4);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image:url(./img/bicycle.png);
+    background-position-y:183px;
+
+}
+
+
+
+.order-title{
+ margin-top:0;
+ font-size: 24px;
+ line-height: 46px;   
+ margin-bottom: 7px;
+}
+
+.order-info{
+ 
+    margin-bottom: 15px;
+}
+
+.order-text{
+    margin-top: 0;
+    color:#aaa;
+    font-size:14px;
+}
+.profile-link{
+    display: inline-block;
+    float:right;
+    padding: 8px;
+    border:1px solid #dfdfdf;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.profile-link:hover{
+    box-shadow: 0 0 7px 2px rgba(0,0,0,.3);
+}
+
+.profile-icon{
+    vertical-align: middle;
+}
+
+
+.order-details{
+    width:100%;
+
+}
+
+.order-item{
+
+}
+
+
+tfoot .idm{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.md{
+    vertical-align: top;
+    color:#000;
+    text-align:right;
+    font-weight: bold;
+    font-size: 19px;
+    padding-top: 8px;
+}
+
+.idm{
+    color:#5c5c5c;
+    font-weight:500;
+    padding:9px 0 18px;
+    font-size: 19px;
+}
